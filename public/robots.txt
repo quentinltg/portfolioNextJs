@@ -1,0 +1,16 @@
+# robots.txt pour Portfolio Éco-responsable
+# Site optimisé pour l'éco-conception et la performance
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://example.com/sitemap.xml
+
+# Exclusions (répertoires de build)
+Disallow: /_next/static/
+Disallow: /api/
+
+# Politesse : délai entre requêtes (en secondes)
+# Aide à réduire la charge serveur
+Crawl-delay: 1

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "ecommerce-eco",
+    "title": "E-commerce Éco-responsable",
+    "description": "Plateforme de vente en ligne optimisée pour minimiser l'empreinte carbone. Images WebP/AVIF, lazy loading, cache agressif, code splitting avancé. Score Lighthouse 98/100.",
+    "technologies": ["Next.js", "TypeScript", "CSS Modules", "WebP"],
+    "image": "/images/projects/ecommerce-eco.svg",
+    "imageAlt": "Capture d'écran de la plateforme e-commerce éco-responsable",
+    "demoUrl": "https://example.com/demo",
+    "sourceUrl": "https://github.com/example/ecommerce-eco",
+    "ecoScore": {
+      "label": "Excellent",
+      "value": 5
+    },
+    "completionDate": "2025-12"
+  },
+  {
+    "id": "blog-minimaliste",
+    "title": "Blog Minimaliste",
+    "description": "Blog statique généré avec Next.js, sans base de données. Contenu au format Markdown, images optimisées, service worker pour cache offline. 0 requête externe après première visite.",
+    "technologies": ["Next.js", "Markdown", "Service Worker"],
+    "image": "/images/projects/blog-minimaliste.svg",
+    "imageAlt": "Interface épurée du blog minimaliste",
+    "sourceUrl": "https://github.com/example/blog-minimaliste",
+    "ecoScore": {
+      "label": "Excellent",
+      "value": 5
+    },
+    "completionDate": "2025-09"
+  },
+  {
+    "id": "dashboard-analytics",
+    "title": "Dashboard Analytics Léger",
+    "description": "Interface de visualisation de données avec graphiques SVG natifs (pas de Chart.js). Données chargées une seule fois au build. Bundle JS < 50 KB. Accessible WCAG 2.1 AA.",
+    "technologies": ["Next.js", "TypeScript", "SVG", "CSS Grid"],
+    "image": "/images/projects/dashboard-analytics.svg",
+    "imageAlt": "Dashboard avec graphiques SVG minimalistes",
+    "demoUrl": "https://example.com/dashboard",
+    "ecoScore": {
+      "label": "Très bon",
+      "value": 4
+    },
+    "completionDate": "2025-06"
+  }
+]

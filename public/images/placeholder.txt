@@ -1,0 +1,4 @@
+<!-- Placeholder image 1x1px transparent PNG (68 bytes) -->
+<!-- Utilisable comme placeholder pour éviter layout shift -->
+<!-- Base64 encodé pour économiser une requête HTTP -->
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=

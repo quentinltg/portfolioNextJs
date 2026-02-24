@@ -1,0 +1,20 @@
+{
+  "name": "Portfolio Éco-responsable",
+  "short_name": "Portfolio",
+  "description": "Portfolio de développeur web spécialisé en éco-conception, performance et accessibilité",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0070f3",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["portfolio", "developer", "web"],
+  "lang": "fr-FR",
+  "dir": "ltr"
+}
