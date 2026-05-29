@@ -1,45 +1,70 @@
 [
   {
-    "id": "ecommerce-eco",
-    "title": "E-commerce Éco-responsable",
-    "description": "Plateforme de vente en ligne optimisée pour minimiser l'empreinte carbone. Images WebP/AVIF, lazy loading, cache agressif, code splitting avancé. Score Lighthouse 98/100.",
-    "technologies": ["Next.js", "TypeScript", "CSS Modules", "WebP"],
-    "image": "/images/projects/ecommerce-eco.svg",
-    "imageAlt": "Capture d'écran de la plateforme e-commerce éco-responsable",
-    "demoUrl": "https://example.com/demo",
-    "sourceUrl": "https://github.com/example/ecommerce-eco",
+    "id": "abyss-explore",
+    "title": "Abyss Explore",
+    "description": "Création d'un site web statique pour une entreprise fictive dans le domaine de l'événementiel. Le site présente une agence de voyage spécialisée dans la plongée sous-marine. Design moderne et responsive.",
+    "technologies": ["HTML5", "CSS3"],
+    "image": "/images/projects/abyss-site.webp",
+    "imageAlt": "Capture d'écran du site Abyss Explore",
+    "sourceUrl": "https://github.com/quentinltg/abyss-explore",
     "ecoScore": {
       "label": "Excellent",
       "value": 5
     },
-    "completionDate": "2025-12"
+    "completionDate": "2024"
   },
   {
-    "id": "blog-minimaliste",
-    "title": "Blog Minimaliste",
-    "description": "Blog statique généré avec Next.js, sans base de données. Contenu au format Markdown, images optimisées, service worker pour cache offline. 0 requête externe après première visite.",
-    "technologies": ["Next.js", "Markdown", "Service Worker"],
-    "image": "/images/projects/blog-minimaliste.svg",
-    "imageAlt": "Interface épurée du blog minimaliste",
-    "sourceUrl": "https://github.com/example/blog-minimaliste",
-    "ecoScore": {
-      "label": "Excellent",
-      "value": 5
-    },
-    "completionDate": "2025-09"
-  },
-  {
-    "id": "dashboard-analytics",
-    "title": "Dashboard Analytics Léger",
-    "description": "Interface de visualisation de données avec graphiques SVG natifs (pas de Chart.js). Données chargées une seule fois au build. Bundle JS < 50 KB. Accessible WCAG 2.1 AA.",
-    "technologies": ["Next.js", "TypeScript", "SVG", "CSS Grid"],
-    "image": "/images/projects/dashboard-analytics.svg",
-    "imageAlt": "Dashboard avec graphiques SVG minimalistes",
-    "demoUrl": "https://example.com/dashboard",
+    "id": "juste-le-prix",
+    "title": "Juste le Prix",
+    "description": "Conception d'un jeu web basé sur les règles du célèbre jeu télévisé 'Le Juste Prix'. Application interactive avec système de score, base de données SQLite et interface responsive utilisant Bulma. Projet réalisé en équipe avec méthodologie SCRUM.",
+    "technologies": ["Python", "Flask", "HTML5", "CSS3", "Bulma", "JavaScript", "SQLite", "Git"],
+    "image": "/images/projects/juste-le-prix-site.webp",
+    "imageAlt": "Interface du jeu Juste le Prix",
+    "sourceUrl": "https://github.com/quentinltg/juste-le-prix",
     "ecoScore": {
       "label": "Très bon",
       "value": 4
     },
-    "completionDate": "2025-06"
+    "completionDate": "2024"
+  },
+  {
+    "id": "bomberman",
+    "title": "Bomberman",
+    "description": "Réalisation d'un jeu Bomberman en Java dans le cadre d'un projet de Travaux Dirigés du S3 de BUT Informatique. Jeu multijoueur avec intelligence artificielle, gestion des collisions et système de power-ups. Développé en équipe avec méthodologie SCRUM.",
+    "technologies": ["Java", "JavaFX", "Git"],
+    "image": "/images/projects/bomberman.webp",
+    "imageAlt": "Capture d'écran du jeu Bomberman",
+    "ecoScore": {
+      "label": "Très bon",
+      "value": 4
+    },
+    "completionDate": "2024"
+  },
+  {
+    "id": "vanlifer",
+    "title": "Vanlifer",
+    "description": "Réalisation d'un site web de carnet de voyages en 36 heures lors du Marathon du Web. Projet réalisé en équipe de 7 personnes (3 BUT Informatique + 4 BUT MMI). Application permettant de créer, partager et visualiser des carnets de voyage avec photos et étapes.",
+    "technologies": ["PHP", "Laravel", "HTML5", "CSS3", "JavaScript", "SQLite", "Git"],
+    "image": "/images/projects/vanlifer.webp",
+    "imageAlt": "Interface du site Vanlifer",
+    "sourceUrl": "https://github.com/quentinltg/vanlifer",
+    "ecoScore": {
+      "label": "Très bon",
+      "value": 4
+    },
+    "completionDate": "2025-04"
+  },
+  {
+    "id": "portfolio",
+    "title": "Portfolio Personnel",
+    "description": "Mon premier portofolio statique réalisé en HTML et CSS. Aujourd'hui hors ligne et remplacé par ce nouveau portfolio dynamique développé avec Next.js et TypeScript. Ce projet m'a permis de découvrir les bases du développement web et de créer une première vitrine de mes compétences.",
+    "technologies": ["HTML5", "CSS3"],
+    "image": "/images/projects/portefolio.webp",
+    "imageAlt": "Capture d'écran du portfolio",
+    "ecoScore": {
+      "label": "Excellent",
+      "value": 5
+    },
+    "completionDate": "2026"
   }
 ]

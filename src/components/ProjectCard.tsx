@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import type { Project } from '@/types/project';
 import styles from './ProjectCard.module.css';
 
@@ -8,8 +7,6 @@ interface ProjectCardProps {
 }
 
 export default function ProjectCard({ project }: ProjectCardProps) {
-  const ecoScoreEmoji = '🌱'.repeat(project.ecoScore.value);
-
   return (
     <article className={styles.card}>
       <div className={styles.imageWrapper}>
@@ -24,16 +21,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       </div>
 
       <div className={styles.content}>
-        <div className={styles.header}>
-          <h3 className={styles.title}>{project.title}</h3>
-          <span
-            className={styles.ecoScore}
-            title={`Score éco: ${project.ecoScore.value}/5`}
-            aria-label={`Score écologique: ${project.ecoScore.label}, ${project.ecoScore.value} sur 5`}
-          >
-            {ecoScoreEmoji} {project.ecoScore.label}
-          </span>
-        </div>
+        <h3 className={styles.title}>{project.title}</h3>
 
         <p className={styles.description}>{project.description}</p>
 

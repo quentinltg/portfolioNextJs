@@ -3,18 +3,34 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'CV',
   description:
-    'Curriculum Vitae de Quentin : développeur web spécialisé en éco-conception. Expériences professionnelles, formation, compétences et loisirs.',
+    'Curriculum Vitae de Quentin Tripognez : développeur informatique fullstack. Alternant en SI, candidat école d\'ingénieur. Expériences, formation, compétences.',
 };
 
 export default function CVPage() {
   return (
     <div className="container">
       <header className="page-header">
-        <h1 className="page-title">Curriculum Vitae</h1>
+        <h1 className="page-title">Quentin Tripognez</h1>
         <p className="page-description">
-          Développeur Web Full Stack - Spécialiste Éco-conception & Performance
+          Candidat en école d'ingénieur – Alternant en informatique (Développement et Systèmes d'Information)
         </p>
       </header>
+
+      {/* Profil */}
+      <section className="content-section" aria-labelledby="profile-title" style={{ textAlign: 'center', marginBottom: '3rem' }}>
+        <h2 id="profile-title" className="content-title">Profil</h2>
+        <p className="content-text" style={{ maxWidth: '800px', margin: '0 auto' }}>
+          Actuellement en 3ème année de BUT Informatique et alternant au sein de la DSI de Keolis Amiens, 
+          je développe des applications métiers et participe à des projets numériques structurants.
+          Motivé par l'innovation, la résolution de problèmes techniques et le travail d'équipe, 
+          j'intégre l'année prochaine le cycle ingénieur informatique du CESI en alternance.
+        </p>
+        <div style={{ marginTop: '1.5rem', display: 'flex', gap: '2rem', justifyContent: 'center', flexWrap: 'wrap', fontSize: '0.9375rem' }}>
+          <div><strong>📱</strong> 07 83 00 12 24</div>
+          <div><strong>✉️</strong> quentint2005@gmail.com</div>
+          <div><strong>🌐</strong> quentin-tripognez.fr</div>
+        </div>
+      </section>
 
       <div className="content-grid">
         {/* Expériences Professionnelles */}
@@ -26,64 +42,97 @@ export default function CVPage() {
           <div className="cv-timeline">
             <article className="cv-item">
               <div className="cv-item-header">
-                <h3 className="cv-item-title">Développeur Web Full Stack</h3>
-                <span className="cv-item-company">Agence Web Verte - Lyon</span>
-                <span className="cv-item-date">Sept. 2024 - Présent</span>
+                <h3 className="cv-item-title">Alternant Systèmes d'Information</h3>
+                <span className="cv-item-company">Keolis Amiens</span>
+                <span className="cv-item-date">Septembre 2025 - Aujourd'hui</span>
               </div>
               <ul className="cv-item-list">
                 <li>
-                  Développement de sites web éco-responsables avec Next.js et TypeScript
+                  <strong>Développement fullstack</strong> : conception, maintenance et amélioration d'applications métiers en PHP, React et SQL
                 </li>
                 <li>
-                  Optimisation des performances et réduction de l'empreinte carbone (-60% en moyenne)
+                  <strong>Support et maintenance</strong> : diagnostic et résolution d'incidents techniques via système de ticketing
                 </li>
                 <li>
-                  Audits d'accessibilité WCAG 2.1 AA et accompagnement clients
-                </li>
-                <li>
-                  Mise en place de CI/CD avec GitHub Actions et déploiement sur Vercel
+                  <strong>Gestion de projet</strong> : conception et déploiement en équipe d'une application centralisée pour plusieurs services
                 </li>
               </ul>
             </article>
 
             <article className="cv-item">
               <div className="cv-item-header">
-                <h3 className="cv-item-title">Développeur Front-End Junior</h3>
-                <span className="cv-item-company">StartUp Innovante - Remote</span>
-                <span className="cv-item-date">Janv. 2023 - Août 2024</span>
+                <h3 className="cv-item-title">Stagiaire Développeur Java</h3>
+                <span className="cv-item-company">Lenrek Informatique</span>
+                <span className="cv-item-date">Mai 2025 - Juin 2025</span>
               </div>
               <ul className="cv-item-list">
                 <li>
-                  Refonte complète de l'interface utilisateur avec React et CSS Modules
+                  Développement Java : enrichissement fonctionnel d'une application existante
                 </li>
                 <li>
-                  Intégration d'APIs REST et optimisation des requêtes réseau
+                  Conception, codage et tests de nouvelles fonctionnalités
                 </li>
                 <li>
-                  Collaboration en équipe agile (Scrum) avec des designers UX/UI
+                  Collaboration avec l'équipe de développement sur les bonnes pratiques
                 </li>
-                <li>
-                  Tests unitaires et d'intégration avec Jest et React Testing Library
-                </li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        {/* Projets */}
+        <section className="content-section" aria-labelledby="projects-title">
+          <h2 id="projects-title" className="content-title">
+            🚀 Projets
+          </h2>
+
+          <div className="cv-timeline">
+            <article className="cv-item">
+              <div className="cv-item-header">
+                <h3 className="cv-item-title">Projet Personnel - Portfolio Photographe</h3>
+                <span className="cv-item-company">Projet Freelance</span>
+                <span className="cv-item-date">Janvier 2026 - Aujourd'hui</span>
+              </div>
+              <p className="cv-item-description">
+                Conception et développement complet d'un portfolio web pour une photographe professionnelle.
+              </p>
+              <ul className="cv-item-list">
+                <li>Définition du design en collaboration avec la cliente</li>
+                <li>Développement front-end et back-end sur mesure</li>
+                <li>Mise en ligne et optimisation pour le référencement</li>
               </ul>
             </article>
 
             <article className="cv-item">
               <div className="cv-item-header">
-                <h3 className="cv-item-title">Stage Développeur Web</h3>
-                <span className="cv-item-company">PME Locale - Grenoble</span>
-                <span className="cv-item-date">Avril 2022 - Août 2022</span>
+                <h3 className="cv-item-title">SAE - Système de gestion de location de véhicules</h3>
+                <span className="cv-item-company">IUT de Lens</span>
+                <span className="cv-item-date">Avril 2025</span>
               </div>
+              <p className="cv-item-description">
+                Conception d'une architecture logicielle complète en équipe de 4 personnes.
+              </p>
               <ul className="cv-item-list">
-                <li>
-                  Création d'un site vitrine responsive avec HTML5, CSS3 et JavaScript
-                </li>
-                <li>
-                  Intégration de CMS WordPress et personnalisation de thèmes
-                </li>
-                <li>
-                  Optimisation SEO et amélioration du référencement naturel
-                </li>
+                <li>Front-end Angular pour l'interface web</li>
+                <li>Application mobile développée en parallèle</li>
+                <li>API Laravel pour la gestion back-end</li>
+                <li>Travail collaboratif avec méthodologie agile</li>
+              </ul>
+            </article>
+
+            <article className="cv-item">
+              <div className="cv-item-header">
+                <h3 className="cv-item-title">Marathon du Web - Hackathon 36h</h3>
+                <span className="cv-item-company">Compétition inter-IUT</span>
+                <span className="cv-item-date">Avril 2025</span>
+              </div>
+              <p className="cv-item-description">
+                Développement d'une application web de carnet de voyages en 36 heures avec une équipe de 7 personnes.
+              </p>
+              <ul className="cv-item-list">
+                <li>Stack technique : Laravel (PHP)</li>
+                <li>Gestion du temps et priorisation des fonctionnalités</li>
+                <li>Collaboration intensive en équipe pluridisciplinaire</li>
               </ul>
             </article>
           </div>
@@ -98,29 +147,30 @@ export default function CVPage() {
           <div className="cv-timeline">
             <article className="cv-item">
               <div className="cv-item-header">
-                <h3 className="cv-item-title">BUT Informatique - Parcours B</h3>
-                <span className="cv-item-company">IUT Université de Grenoble</span>
-                <span className="cv-item-date">2021 - 2024</span>
+                <h3 className="cv-item-title">BUT Informatique</h3>
+                <span className="cv-item-company">IUT de Lens</span>
+                <span className="cv-item-date">2023 - 2026</span>
               </div>
               <p className="cv-item-description">
-                Spécialisation en développement web et éco-conception numérique.
-                Projet de fin d'études sur l'optimisation de l'empreinte carbone des applications web.
+                Formation en développement informatique et systèmes d'information.
+                Alternance en 3ème année au sein de la DSI de Keolis Amiens.
               </p>
               <p className="cv-item-skills">
-                <strong>Compétences acquises :</strong> Développement web full stack,
-                bases de données, architecture logicielle, gestion de projet agile
+                <strong>Compétences acquises :</strong> Développement web fullstack (front et back), 
+                bases de données, architecture logicielle, gestion de projet agile, 
+                API REST, développement mobile
               </p>
             </article>
 
             <article className="cv-item">
               <div className="cv-item-header">
-                <h3 className="cv-item-title">Baccalauréat Scientifique</h3>
-                <span className="cv-item-company">Lycée Champollion - Grenoble</span>
-                <span className="cv-item-date">2018 - 2021</span>
+                <h3 className="cv-item-title">Baccalauréat Général</h3>
+                <span className="cv-item-company">Lycée Malraux - Béthune</span>
+                <span className="cv-item-date">2022 - 2023</span>
               </div>
               <p className="cv-item-description">
-                Spécialité Mathématiques et Numérique et Sciences Informatiques (NSI).
-                Mention Très Bien.
+                Section européenne anglais. Spécialités : Mathématiques, 
+                Numérique et Sciences de l'Informatique (NSI), Sciences de l'Ingénieur.
               </p>
             </article>
           </div>
@@ -134,62 +184,56 @@ export default function CVPage() {
 
           <div className="skills-grid">
             <div className="skill-category">
-              <h3 className="skill-category-title">Langages & Frameworks</h3>
+              <h3 className="skill-category-title">Front-end</h3>
               <ul className="skill-tags">
-                <li className="skill-tag skill-expert">JavaScript / TypeScript</li>
-                <li className="skill-tag skill-expert">React / Next.js</li>
-                <li className="skill-tag skill-expert">HTML5 / CSS3</li>
-                <li className="skill-tag skill-intermediate">Node.js</li>
+                <li className="skill-tag skill-expert">React</li>
+                <li className="skill-tag skill-expert">Angular</li>
+                <li className="skill-tag skill-expert">JavaScript</li>
+                <li className="skill-tag skill-expert">HTML5</li>
+                <li className="skill-tag skill-expert">CSS3</li>
+                <li className="skill-tag skill-intermediate">TailwindCSS</li>
+              </ul>
+            </div>
+
+            <div className="skill-category">
+              <h3 className="skill-category-title">Back-end</h3>
+              <ul className="skill-tags">
+                <li className="skill-tag skill-expert">PHP (Laravel)</li>
+                <li className="skill-tag skill-expert">SQL</li>
                 <li className="skill-tag skill-intermediate">Python</li>
-                <li className="skill-tag skill-basic">PHP</li>
+                <li className="skill-tag skill-intermediate">API REST</li>
+                <li className="skill-tag skill-intermediate">Java</li>
               </ul>
             </div>
 
             <div className="skill-category">
               <h3 className="skill-category-title">Outils & Technologies</h3>
               <ul className="skill-tags">
-                <li className="skill-tag skill-expert">Git / GitHub</li>
-                <li className="skill-tag skill-expert">VS Code</li>
-                <li className="skill-tag skill-expert">npm / yarn</li>
+                <li className="skill-tag skill-expert">Git</li>
+                <li className="skill-tag skill-expert">VSCode</li>
                 <li className="skill-tag skill-intermediate">Docker</li>
-                <li className="skill-tag skill-intermediate">PostgreSQL / MongoDB</li>
-                <li className="skill-tag skill-intermediate">Figma</li>
+                <li className="skill-tag skill-intermediate">Unix/Linux</li>
+                <li className="skill-tag skill-intermediate">Suite JetBrains</li>
               </ul>
             </div>
 
             <div className="skill-category">
-              <h3 className="skill-category-title">Éco-conception & Performance</h3>
+              <h3 className="skill-category-title">Autres Compétences</h3>
               <ul className="skill-tags">
-                <li className="skill-tag skill-expert">Lighthouse Audits</li>
-                <li className="skill-tag skill-expert">Core Web Vitals</li>
-                <li className="skill-tag skill-expert">Optimisation Images</li>
-                <li className="skill-tag skill-intermediate">Service Workers</li>
-                <li className="skill-tag skill-intermediate">WebPageTest</li>
-                <li className="skill-tag skill-intermediate">Green IT</li>
-              </ul>
-            </div>
-
-            <div className="skill-category">
-              <h3 className="skill-category-title">Accessibilité & UX</h3>
-              <ul className="skill-tags">
-                <li className="skill-tag skill-expert">WCAG 2.1 AA/AAA</li>
-                <li className="skill-tag skill-expert">ARIA</li>
-                <li className="skill-tag skill-expert">Tests lecteurs d'écran</li>
-                <li className="skill-tag skill-intermediate">Design Responsive</li>
-                <li className="skill-tag skill-intermediate">Mobile First</li>
+                <li className="skill-tag skill-expert">Veille technologique</li>
+                <li className="skill-tag skill-intermediate">Mathématiques appliquées</li>
+                <li className="skill-tag skill-expert">Documentation technique</li>
+                <li className="skill-tag skill-expert">Lecture anglais technique</li>
               </ul>
             </div>
           </div>
 
           <div className="skill-legend">
             <p className="skill-legend-item">
-              <span className="skill-tag skill-expert">Expert</span> - Utilisation quotidienne et maîtrise avancée
+              <span className="skill-tag skill-expert">Usage courant</span> - Utilisation quotidienne et maîtrise avancée
             </p>
             <p className="skill-legend-item">
-              <span className="skill-tag skill-intermediate">Intermédiaire</span> - Bonne pratique et autonomie
-            </p>
-            <p className="skill-legend-item">
-              <span className="skill-tag skill-basic">Débutant</span> - Connaissances de base et apprentissage
+              <span className="skill-tag skill-intermediate">Connaissance des bases</span> - Bonne pratique et autonomie
             </p>
           </div>
         </section>
@@ -197,39 +241,39 @@ export default function CVPage() {
         {/* Compétences Transversales */}
         <section className="content-section" aria-labelledby="soft-skills-title">
           <h2 id="soft-skills-title" className="content-title">
-            🤝 Compétences Transversales
+            🤝 Soft Skills
           </h2>
 
           <div className="values-grid">
             <div className="value-card">
-              <h3 className="value-title">🎯 Autonomie</h3>
+              <h3 className="value-title">📋 Gestion de projet</h3>
               <p className="value-description">
-                Capacité à gérer mes projets de A à Z, de la conception au déploiement,
-                en prenant des initiatives pertinentes.
+                Capacité à organiser et mener des projets de développement, de la 
+                conception au déploiement, en respectant les délais et les objectifs.
               </p>
             </div>
 
             <div className="value-card">
               <h3 className="value-title">👥 Travail d'équipe</h3>
               <p className="value-description">
-                Expérience en méthodologie agile (Scrum), collaboration avec designers
-                et product owners, code reviews constructives.
+                Expérience en collaboration agile, communication efficace avec 
+                les équipes techniques et métiers, partage des connaissances.
               </p>
             </div>
 
             <div className="value-card">
-              <h3 className="value-title">📚 Veille technologique</h3>
+              <h3 className="value-title">🔄 Adaptabilité</h3>
               <p className="value-description">
-                Suivi actif des évolutions web (blogs, podcasts, conférences),
-                apprentissage continu de nouvelles technologies.
+                Capacité à apprendre rapidement de nouvelles technologies, 
+                à s'adapter aux changements et à gérer les imprévus.
               </p>
             </div>
 
             <div className="value-card">
-              <h3 className="value-title">🌍 Sensibilité écologique</h3>
+              <h3 className="value-title">✓ Rigueur</h3>
               <p className="value-description">
-                Engagement pour un numérique responsable, participation aux
-                communautés Green IT et éco-conception.
+                Attention aux détails, respect des bonnes pratiques de 
+                développement, tests et documentation systématiques.
               </p>
             </div>
           </div>
@@ -238,55 +282,32 @@ export default function CVPage() {
         {/* Loisirs & Centres d'intérêt */}
         <section className="content-section" aria-labelledby="hobbies-title">
           <h2 id="hobbies-title" className="content-title">
-            🎨 Loisirs & Centres d'intérêt
+            Engagement Associatif & Loisirs
           </h2>
 
           <div className="hobbies-grid">
-            <div className="hobby-card">
-              <h3 className="hobby-title">🏔️ Randonnée & Nature</h3>
+            <div className="hobby-card" style={{ gridColumn: 'span 2' }}>
+              <h3 className="hobby-title">🤿 Président-adjoint - Béthune Subaquatique</h3>
               <p className="hobby-description">
-                Passionné de randonnée en montagne, particulièrement dans les Alpes.
-                La nature m'inspire et renforce ma sensibilité écologique.
+                <strong>Pilotage de projets associatifs :</strong> Gestion administrative, 
+                prise de décisions stratégiques et coordination des activités du club.
+              </p>
+              <p className="hobby-description" style={{ marginTop: '0.5rem' }}>
+                <strong>Encadrant de plongée :</strong> Formation pédagogique, 
+                gestion de la sécurité et encadrement de groupes en milieu aquatique.
+              </p>
+              <p className="hobby-description" style={{ marginTop: '0.5rem' }}>
+                <strong>Plongée sportive niveau national :</strong> Pratique intensive 
+                développant discipline, rigueur et esprit d'équipe. Gestion du stress 
+                et respect des procédures de sécurité.
               </p>
             </div>
 
             <div className="hobby-card">
-              <h3 className="hobby-title">💻 Projets Open Source</h3>
+              <h3 className="hobby-title">💻 Veille Technologique</h3>
               <p className="hobby-description">
-                Contribution à des projets open source sur GitHub, notamment des
-                outils d'optimisation web et de mesure d'empreinte carbone.
-              </p>
-            </div>
-
-            <div className="hobby-card">
-              <h3 className="hobby-title">📖 Lecture Tech</h3>
-              <p className="hobby-description">
-                Lecture régulière d'articles techniques, blogs de développeurs et
-                livres sur l'architecture logicielle et les bonnes pratiques.
-              </p>
-            </div>
-
-            <div className="hobby-card">
-              <h3 className="hobby-title">🎮 Jeux Vidéo Indépendants</h3>
-              <p className="hobby-description">
-                Amateur de jeux vidéo indépendants et de game design. Intérêt pour
-                l'optimisation des performances dans le développement de jeux.
-              </p>
-            </div>
-
-            <div className="hobby-card">
-              <h3 className="hobby-title">🎸 Musique</h3>
-              <p className="hobby-description">
-                Pratique de la guitare en autodidacte depuis 5 ans. La musique
-                développe ma créativité et ma persévérance.
-              </p>
-            </div>
-
-            <div className="hobby-card">
-              <h3 className="hobby-title">🌱 Permaculture</h3>
-              <p className="hobby-description">
-                Initiation à la permaculture et au jardinage urbain. Lien entre
-                écologie numérique et écologie environnementale.
+                Suivi actif des tendances en développement web et systèmes d'information.
+                Lecture de blogs techniques.
               </p>
             </div>
           </div>
@@ -306,23 +327,18 @@ export default function CVPage() {
             <div className="language-item">
               <span className="language-name">Anglais</span>
               <span className="language-level">
-                Niveau B2 (TOEIC 850) - Lu, écrit, parlé couramment
+                Niveau B2 - Lu, écrit, parlé. Lecture de documentation technique.
               </span>
-            </div>
-            <div className="language-item">
-              <span className="language-name">Espagnol</span>
-              <span className="language-level">Niveau A2 - Notions de base</span>
             </div>
           </div>
         </section>
 
         {/* Call to Action */}
         <aside className="info-box">
-          <h2 className="info-box-title">📥 Télécharger mon CV</h2>
+          <h2 className="info-box-title">📥 Me contacter</h2>
           <p className="info-box-description">
-            Une version PDF de ce CV est disponible sur demande. N'hésitez pas à
-            me contacter pour obtenir plus d'informations ou discuter d'opportunités
-            de collaboration.
+            Intéressé par mon profil ? N'hésitez pas à me contacter pour discuter 
+            d'opportunités d'alternance, de projets ou pour toute autre question.
           </p>
           <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem', flexWrap: 'wrap' }}>
             <a href="/contact" className="button button-primary">

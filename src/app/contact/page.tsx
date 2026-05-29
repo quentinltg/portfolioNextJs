@@ -22,101 +22,70 @@ export default function ContactPage() {
             Me contacter
           </h2>
           <p className="content-text">
-            Je suis disponible pour échanger sur vos projets web éco-responsables.
-            Que ce soit pour une collaboration, des conseils ou simplement discuter
-            de bonnes pratiques, n'hésitez pas à me contacter.
+            Actuellement à la recherche d'une alternance d'une durée de 36 mois pour la rentrée 2026, je suis ouvert à toute opportunité de collaboration.
           </p>
 
           <div className="contact-methods">
             <div className="contact-card">
               <h3 className="contact-card-title">📧 Email</h3>
               <p className="contact-card-description">
-                Pour les demandes détaillées et les devis
+                Pour les demandes de contact et échanges professionnels
               </p>
               <a
-                href="mailto:contact@example.com"
+                href="mailto:quentint2005@gmail.com"
                 className="button button-primary"
                 title="Envoyer un email"
               >
-                contact@example.com
+                quentint2005@gmail.com
               </a>
             </div>
 
             <div className="contact-card">
-              <h3 className="contact-card-title">📝 Formulaire</h3>
+              <h3 className="contact-card-title">📞 Téléphone</h3>
               <p className="contact-card-description">
-                Via Framaforms, plateforme respectueuse de la vie privée
+                Disponible pour échanger sur vos projets
               </p>
               <a
-                href="https://framaforms.org"
+                href="tel:+33783001224"
+                className="button button-primary"
+                title="Appeler"
+              >
+                07 83 00 12 24
+              </a>
+            </div>
+
+            <div className="contact-card">
+              <h3 className="contact-card-title">💼 LinkedIn</h3>
+              <p className="contact-card-description">
+                Restons connectés professionnellement
+              </p>
+              <a
+                href="https://www.linkedin.com/in/quentin-tripognez-b2166a303"
                 className="button button-primary"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Ouvre dans un nouvel onglet"
+                title="Visiter mon profil LinkedIn"
               >
-                Accéder au formulaire
+                Quentin Tripognez
+              </a>
+            </div>
+
+            <div className="contact-card">
+              <h3 className="contact-card-title">🐙 GitHub</h3>
+              <p className="contact-card-description">
+                Découvrez mes projets open source
+              </p>
+              <a
+                href="https://github.com/quentinltg"
+                className="button button-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Visiter mon GitHub"
+              >
+                @quentinltg
               </a>
             </div>
           </div>
-        </section>
-
-        <section className="content-section" aria-labelledby="faq-title">
-          <h2 id="faq-title" className="content-title">
-            Questions fréquentes
-          </h2>
-
-          <div className="faq-list">
-            <div className="faq-item">
-              <h3 className="faq-question">
-                Quels types de projets acceptez-vous ?
-              </h3>
-              <p className="faq-answer">
-                Je privilégie les projets qui ont un impact positif et qui
-                valorisent l'éco-conception. Sites vitrines, blogs, portfolios,
-                applications web statiques ou peu dynamiques.
-              </p>
-            </div>
-
-            <div className="faq-item">
-              <h3 className="faq-question">Quels sont vos délais ?</h3>
-              <p className="faq-answer">
-                Les délais varient selon la complexité du projet. Comptez entre
-                2 et 6 semaines pour un site vitrine éco-conçu, tests et
-                optimisations inclus.
-              </p>
-            </div>
-
-            <div className="faq-item">
-              <h3 className="faq-question">
-                Proposez-vous de l'accompagnement ?
-              </h3>
-              <p className="faq-answer">
-                Oui, je peux vous accompagner sur l'éco-conception de vos
-                projets existants : audits de performance, optimisation du code,
-                formation de vos équipes.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="content-section" aria-labelledby="socials-title">
-          <h2 id="socials-title" className="content-title">
-            Restons en contact
-          </h2>
-          <p className="content-text">
-            Abonnez-vous à ma newsletter pour recevoir des conseils sur l'éco-conception
-            et les dernières actualités du web durable. Pas de spam, juste du contenu
-            de qualité une fois par mois.
-          </p>
-          <a
-            href="https://framaforms.org"
-            className="button button-secondary"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="S'abonner à la newsletter (ouvre dans un nouvel onglet)"
-          >
-            S'abonner à la newsletter
-          </a>
         </section>
       </div>
     </div>

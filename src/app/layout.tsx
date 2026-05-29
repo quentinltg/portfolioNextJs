@@ -7,29 +7,31 @@ import './print.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Portfolio Éco-responsable | Développeur Web',
-    template: '%s | Portfolio Éco-responsable',
+    default: 'Quentin Tripognez | Développeur Informatique',
+    template: '%s | Quentin Tripognez',
   },
   description:
-    'Portfolio de développeur web spécialisé en éco-conception, performance et accessibilité. Découvrez mes projets optimisés pour un web durable.',
+    'Portfolio de Quentin Tripognez, développeur informatique fullstack. Alternant en SI chez Keolis Amiens. BUT Informatique, spécialisé en développement web et systèmes d\'information.',
   keywords: [
     'développeur web',
-    'éco-conception',
-    'performance web',
-    'accessibilité',
-    'Next.js',
-    'TypeScript',
+    'développeur fullstack',
+    'informatique',
+    'alternance',
+    'React',
+    'Angular',
+    'PHP',
+    'Laravel',
   ],
-  authors: [{ name: 'Quentin', url: 'https://example.com' }],
-  creator: 'Quentin',
+  authors: [{ name: 'Quentin Tripognez', url: 'https://quentin-tripognez.fr' }],
+  creator: 'Quentin Tripognez',
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
-    url: 'https://example.com',
-    siteName: 'Portfolio Éco-responsable',
-    title: 'Portfolio Éco-responsable | Développeur Web',
+    url: 'https://quentin-tripognez.fr',
+    siteName: 'Quentin Tripognez - Portfolio',
+    title: 'Quentin Tripognez | Développeur Informatique Fullstack',
     description:
-      'Développeur web spécialisé en éco-conception et performance. Découvrez mes projets web durables.',
+      'Développeur informatique fullstack, alternant en SI. BUT Informatique. Spécialisé en React, Angular, PHP/Laravel.',
     images: [
       {
         url: '/images/og-image.svg',
@@ -41,9 +43,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Portfolio Éco-responsable | Développeur Web',
+    title: 'Quentin Tripognez | Développeur Informatique',
     description:
-      'Développeur web spécialisé en éco-conception et performance.',
+      'Développeur fullstack - Alternant SI - BUT Informatique',
     images: ['/images/og-image.svg'],
   },
   robots: {

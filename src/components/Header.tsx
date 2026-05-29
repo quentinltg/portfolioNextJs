@@ -26,7 +26,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo} title="Retour à l'accueil">
-          Portfolio Éco
+          Quentin T.
         </Link>
         <nav aria-label="Navigation principale">
           <ul className={styles.nav}>

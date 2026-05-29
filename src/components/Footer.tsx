@@ -9,7 +9,6 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.section}>
-            <h2 className={styles.sectionTitle}>Navigation</h2>
             <ul className={styles.links}>
               <li>
                 <Link href="/" className={styles.link}>
@@ -39,37 +38,10 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className={styles.section}>
-            <h2 className={styles.sectionTitle}>Informations</h2>
-            <ul className={styles.links}>
-              <li>
-                <Link href="/legal" className={styles.link}>
-                  Mentions légales
-                </Link>
-              </li>
-              <li>
-                <Link href="/sitemap" className={styles.link}>
-                  Plan du site
-                </Link>
-              </li>
-              <li>
-                <a
-                  href="https://framaforms.org"
-                  className={styles.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Ouvre dans un nouvel onglet"
-                >
-                  Newsletter
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <p className={styles.copyright}>
-          © {currentYear} Portfolio Éco-responsable. Conçu avec sobriété
-          numérique.
+          © {currentYear} Quentin Tripognez. Portfolio développeur informatique.
         </p>
       </div>
     </footer>

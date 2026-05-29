@@ -15,10 +15,9 @@ export default function ProjectsPage() {
   return (
     <div className="container">
       <header className="page-header">
-        <h1 className="page-title">Mes Projets</h1>
+        <h1 className="page-title">Mes Projets réalisés lors de mon BUT</h1>
         <p className="page-description">
-          Une sélection de projets web optimisés pour la performance, l'accessibilité
-          et l'éco-conception. Chaque projet respecte les meilleures pratiques du web durable.
+          Le meilleur projet restera celui que nous créerons ensemble.
         </p>
       </header>
 
@@ -36,14 +35,6 @@ export default function ProjectsPage() {
         </div>
       )}
 
-      <aside className="info-box">
-        <h2 className="info-box-title">Critères d'éco-conception</h2>
-        <p className="info-box-description">
-          Tous les projets sont évalués selon leur impact environnemental :
-          poids des pages, nombre de requêtes, optimisation des images,
-          performance JavaScript et accessibilité.
-        </p>
-      </aside>
     </div>
   );
 }

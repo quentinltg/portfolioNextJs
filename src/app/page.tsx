@@ -18,18 +18,21 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="hero" aria-labelledby="hero-title">
         <h1 id="hero-title" className="hero-title">
-          Développeur Web Éco-responsable
+          Quentin Tripognez
         </h1>
         <p className="hero-description">
-          Je conçois des sites web performants, accessibles et respectueux de
-          l'environnement. Chaque ligne de code compte pour un web plus durable.
+          Développeur junior
+        </p>
+        <p className="hero-description">
+          Étudiant en BUT Informatique à l'IUT de Lens. 
+          Passionné par le développement, je développe mes compétences en programmation.
         </p>
         <div className="hero-actions">
           <Link href="/projects" className="button button-primary">
             Voir mes projets
           </Link>
-          <Link href="/about" className="button button-secondary">
-            En savoir plus
+          <Link href="/cv" className="button button-secondary">
+            Mon CV
           </Link>
         </div>
       </section>
@@ -47,11 +50,6 @@ export default function HomePage() {
                 <p className="featured-card-description">
                   {project.description}
                 </p>
-                <div className="featured-card-meta">
-                  <span className="eco-badge" title={`Score éco: ${project.ecoScore.value}/5`}>
-                    {'🌱'.repeat(project.ecoScore.value)} {project.ecoScore.label}
-                  </span>
-                </div>
               </article>
             ))}
           </div>
@@ -68,28 +66,28 @@ export default function HomePage() {
       {/* Values Section */}
       <section className="section" aria-labelledby="values-title">
         <h2 id="values-title" className="section-title">
-          Mes engagements
+          À propos de moi
         </h2>
         <div className="values-grid">
           <div className="value-card">
-            <h3 className="value-title">♻️ Éco-conception</h3>
+            <h3 className="value-title">💻 Développement</h3>
             <p className="value-description">
-              Optimisation systématique du poids des pages, des images et du JavaScript
-              pour minimiser l'empreinte carbone.
+              Passionné par le développement Web (HTML, CSS, JavaScript, PHP, Laravel, React, Angular) 
+              et Java. Apprentissage continu de nouvelles technologies.
             </p>
           </div>
           <div className="value-card">
-            <h3 className="value-title">⚡ Performance</h3>
+            <h3 className="value-title">🤿 Plongée</h3>
             <p className="value-description">
-              Sites ultra-rapides grâce au code splitting, lazy loading et
-              optimisations avancées.
+              Pratique de la plongée et de la plongée sportive. Ces disciplines m'ont appris 
+              la rigueur, l'esprit d'équipe et la gestion du stress. Futur guide de palanquée FFESSM.
             </p>
           </div>
           <div className="value-card">
-            <h3 className="value-title">♿ Accessibilité</h3>
+            <h3 className="value-title">🦎 Expérience terrain</h3>
             <p className="value-description">
-              Conformité WCAG 2.1 AA minimum : navigation clavier, lecteurs
-              d'écran, contrastes optimaux.
+              Emploi saisonnier en tant que soigneur animalier chez Reptilis. 
+              Développement de qualités comme la rigueur et le sens des responsabilités.
             </p>
           </div>
         </div>

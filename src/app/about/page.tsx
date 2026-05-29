@@ -12,7 +12,7 @@ export default function AboutPage() {
       <header className="page-header">
         <h1 className="page-title">À propos</h1>
         <p className="page-description">
-          Développeur web spécialisé en éco-conception, performance et accessibilité
+          Étudiant en BUT Informatique, passionné par le développement et la plongée
         </p>
       </header>
 
@@ -22,14 +22,18 @@ export default function AboutPage() {
             Qui suis-je ?
           </h2>
           <p className="content-text">
-            Je suis un développeur web passionné par la création de sites performants
-            et respectueux de l'environnement. Mon objectif : prouver qu'excellence
-            technique et sobriété numérique sont compatibles.
+            Hello ! Je m'appelle Quentin Tripognez, étudiant en BUT Informatique à l'IUT de Lens.
+            Passionné par le développement, je travaille chez Keolis Amiens en tant qu'alternant système d'information.
           </p>
           <p className="content-text">
-            Chaque projet est une opportunité d'optimiser, de réduire l'empreinte
-            carbone et d'améliorer l'expérience utilisateur. Je privilégie les
-            solutions simples, robustes et durables.
+            En parallèle de mes études, je pratique la plongée et la plongée sportive. Ces deux disciplines 
+            m'ont appris la rigueur, l'esprit d'équipe et la gestion du stress, des qualités que j'applique 
+            dans mes projets informatiques.
+          </p>
+          <p className="content-text">
+            J'ai aussi développé ces qualités lors de mon emploi saisonnier en tant que soigneur animalier 
+            chez Reptilis, un centre d'élevage de NAC (Nouveaux Animaux de Compagnie), où j'ai travaillé 
+            durant les étés 2021, 2023 et 2024.
           </p>
         </section>
 
@@ -39,70 +43,70 @@ export default function AboutPage() {
           </h2>
           <ul className="skills-list">
             <li className="skill-item">
-              <strong>Éco-conception web :</strong> Optimisation des ressources,
-              réduction du poids des pages, lazy loading, code splitting
+              <strong>Développement Web :</strong> HTML, CSS, JavaScript, PHP (Laravel), 
+              React, Angular, TailwindCSS
             </li>
             <li className="skill-item">
-              <strong>Performance :</strong> Core Web Vitals, Lighthouse audits,
-              cache strategies, service workers
+              <strong>Développement Backend :</strong> PHP/Laravel, Python (Flask), 
+              SQL, PostgreSQL, API REST
             </li>
             <li className="skill-item">
-              <strong>Accessibilité :</strong> WCAG 2.1 AA/AAA, navigation clavier,
-              ARIA, tests avec lecteurs d'écran
+              <strong>Programmation :</strong> Java, JavaFX, Python
             </li>
             <li className="skill-item">
-              <strong>Technologies :</strong> Next.js, React, TypeScript, CSS
-              Modules, Node.js
+              <strong>Outils :</strong> Git/GitHub, Docker, Unix/Linux, VSCode, 
+              Suite JetBrains
             </li>
             <li className="skill-item">
-              <strong>Outils :</strong> Git, ESLint, Prettier, Lighthouse, WebPageTest
+              <strong>Méthodologies :</strong> Agile, SCRUM, travail en équipe
             </li>
           </ul>
         </section>
 
         <section className="content-section" aria-labelledby="approach-title">
           <h2 id="approach-title" className="content-title">
-            Ma démarche
+            Parcours
           </h2>
           <ol className="approach-list">
             <li className="approach-item">
-              <strong>Analyse des besoins :</strong> Identifier les fonctionnalités
-              essentielles et éliminer le superflu
+              <strong>2019 :</strong> Stage d'observation en maintenance informatique 
+              à la Polyclinique de Riaumont (Liévin)
             </li>
             <li className="approach-item">
-              <strong>Conception sobre :</strong> Privilégier la simplicité et
-              l'efficacité dans le design et le code
+              <strong>2022-2023 :</strong> Baccalauréat Général au Lycée Malraux (Béthune), 
+              section européenne anglais. Spécialités : Mathématiques, NSI, Sciences de l'Ingénieur
             </li>
             <li className="approach-item">
-              <strong>Optimisation continue :</strong> Mesurer, analyser et améliorer
-              la performance à chaque itération
+              <strong>2021, 2023, 2024 :</strong> Emplois saisonniers comme soigneur animalier 
+              chez Reptilis (Godewaersvelde)
             </li>
             <li className="approach-item">
-              <strong>Tests rigoureux :</strong> Valider l'accessibilité, la
-              performance et la compatibilité
+              <strong>2023-2024 :</strong> 1ère année de BUT Informatique à l'IUT de Lens 
+              (HTML/CSS, Java, SQL, Python, Unix, Réseaux)
             </li>
             <li className="approach-item">
-              <strong>Documentation :</strong> Garantir la maintenabilité et le
-              transfert de connaissances
+              <strong>2024-2025 :</strong> 2ème année de BUT Informatique 
+              (PHP/Laravel, PostgreSQL, Flask, approfondissement Java et Python)
             </li>
           </ol>
         </section>
 
         <section className="content-section" aria-labelledby="values-title">
           <h2 id="values-title" className="content-title">
-            Valeurs
+            Centres d'intérêt
           </h2>
           <p className="content-text">
-            <strong>Sobriété numérique :</strong> Concevoir des sites légers qui
-            consomment moins d'énergie et de bande passante.
+            <strong>🤿 Plongée sous-marine :</strong> Pratique régulière de la plongée 
+            et de la plongée sportive. Président-adjoint du club Béthune Subaquatique. 
+            Ces activités développent ma discipline, ma rigueur et mon esprit d'équipe.
           </p>
           <p className="content-text">
-            <strong>Inclusivité :</strong> Rendre le web accessible à tous, quel
-            que soit le handicap ou le matériel utilisé.
+            <strong>🦎 Nature et animaux :</strong> Passionné par les animaux, notamment 
+            les reptiles et les NAC. Expérience professionnelle en tant que soigneur animalier.
           </p>
           <p className="content-text">
-            <strong>Transparence :</strong> Partager mes pratiques, documenter mes
-            choix techniques et contribuer à la communauté.
+            <strong>💻 Veille technologique :</strong> Intérêt constant pour les nouvelles 
+            technologies et les évolutions du développement web et logiciel.
           </p>
         </section>
       </div>
