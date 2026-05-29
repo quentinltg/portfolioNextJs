@@ -1,15 +1,3 @@
-# Portfolio Éco-responsable
-
-Portfolio de développeur web 100% statique, optimisé pour la performance, l'accessibilité et l'éco-conception.
-
-## 🌱 Caractéristiques
-
-- **100% Statique** : Export Next.js vers HTML/CSS/JS purs
-- **Zéro requête externe** : Toutes les données sont locales
-- **Éco-conçu** : Poids minimal, optimisations avancées
-- **Accessible** : Conforme WCAG 2.1 AA
-- **Performant** : Score Lighthouse > 95/100
-- **TypeScript strict** : Code robuste et maintenable
 
 ## 📦 Technologies
 
