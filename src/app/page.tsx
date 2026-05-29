@@ -25,7 +25,7 @@ export default function HomePage() {
         </p>
         <p className="hero-description">
           Étudiant en BUT Informatique à l'IUT de Lens. 
-          Passionné par le développement, je développe mes compétences en programmation.
+          Passionné par le développement, je suis actuellement en alternance chez Keolis Amiens.
         </p>
         <div className="hero-actions">
           <Link href="/projects" className="button button-primary">
