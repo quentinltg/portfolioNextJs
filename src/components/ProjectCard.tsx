@@ -53,7 +53,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
               rel="noopener noreferrer"
               title={`Voir le code source de ${project.title} (ouvre dans un nouvel onglet)`}
             >
-              Code source
+              Lien vers le code source
             </a>
           )}
         </div>

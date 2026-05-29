@@ -115,14 +115,14 @@
 }
 
 .linkSecondary {
-  background-color: #f3f4f6;
-  color: #4b5563;
+  background-color: #0070f3;
+  color: #ffffff;
 }
 
 .linkSecondary:hover,
 .linkSecondary:focus {
-  background-color: #e5e7eb;
-  color: #1a1a1a;
+  background-color: #0051c7;
+  color: #ffffff;
 }
 
 .link:focus {

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const projects = projectsData as Project[];
-  const featuredProjects = projects.slice(0, 2);
+  const featuredProjects = projects.filter(p => p.id === 'abysssocial' || p.id === 'vanlifer');
 
   return (
     <div className="container">

@@ -17,7 +17,7 @@ export default function ProjectsPage() {
       <header className="page-header">
         <h1 className="page-title">Mes Projets réalisés lors de mon BUT</h1>
         <p className="page-description">
-          Le meilleur projet restera celui que nous créerons ensemble.
+          Le meilleur projet reste celui que nous créerons ensemble.
         </p>
       </header>
 

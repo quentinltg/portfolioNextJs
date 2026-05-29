@@ -80,11 +80,11 @@
   {
     "id": "echoo-frontend",
     "title": "Echoo - Frontend",
-    "description": "Conception et développement de l’architecture backend d'un réseau social dédié à la plongée sous-marine. Projet réalisé en équipe de 4 (SAE S5). Architecture API, gestion de base de données et intégration d'un système de recommandation intelligent développé en Python (épinglé sur GitHub).",
-    "technologies": ["Java", "Spring-Boot", "Python","Mongo DB"],
-    "image": "/images/projects/abyss-social.png",
+    "description": "Développement de l'interface frontend d'un réseau social musical sous React, intégré à un backend tiers et piloté en méthodologie SCRUM où j'ai assuré les rôles de Scrum Master et de Product Owner",
+    "technologies": ["React", "Typescript","Méthode Agile"],
+    "image": "/images/projects/echoo.png",
     "imageAlt": "Image d'illustration Abyss Social",
-    "sourceUrl": "https://github.com/axelriv62/abyss-social-backend",
+    "sourceUrl": "https://github.com/axelriv62/echoo-frontend",
     "completionDate": "2026"
   }
 ]
